@@ -31,5 +31,13 @@ let ans6 = str.last
 
 let str1="aabccbbcca"
 
-let ans9=str1.lastIndexOf("c")
+let ans9=str1.lastIndexOf("b")
 console.log(ans9)
+
+
+let ans7= str.split("e")
+console.log(ans7)
+
+let str2="13/02/2024";
+let ans0=str2.split("/")
+console.log(ans0)
