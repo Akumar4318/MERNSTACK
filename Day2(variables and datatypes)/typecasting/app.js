@@ -4,4 +4,4 @@ let num2 =20
 newnum = Number(num1)
 
 let ans =newnum+num2
-console.log(ans)
+console.log(ans) //ans
