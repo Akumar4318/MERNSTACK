@@ -17,17 +17,17 @@
 
 // getmyname()
 
-let aman= ()=>
-{
-    console.log("aman kumar")
-    return "hello aman"
+// let aman= ()=>
+// {
+//     console.log("aman kumar")
+//     return "hello aman"
 
-}
-let retval=aman()
-console.log(aman())
+// }
+// let retval=aman()
+// console.log(aman())
 
 
-//!  
+// //!  
 
 // let callmyname=(firstname,lastname)=>{
     
@@ -38,3 +38,25 @@ console.log(aman())
 
 // let ans=callmyname("abhishek ","kumar")
 // console.log(ans)
+
+
+
+
+// let myname = ()=>{
+//     console.log("aman")
+//     return 23
+// }
+
+// // myname()
+// // console.log(myname())
+// let val=myname()
+// console.log(myname)
+
+
+// ! sum of two no.
+
+function sum(a,b){
+    return a+b
+}
+let ans= sum(10,20)
+console.log(ans)
