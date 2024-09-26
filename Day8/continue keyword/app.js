@@ -80,19 +80,17 @@
 // }
 //! find the perfect square of a no.
 
-while(true)
-    {
-    let num = prompt("enter the no.")
-    let root=Math.sqrt(num)
-    // console.log(Math.sqrt(num))
-    let str =String(root)
+// while(true)
+//     {
+//     let num = prompt("enter the no.")
+//     let root=Math.sqrt(num)
+//     // console.log(Math.sqrt(num))
+//     let str =String(root)
 
-    if(!str.includes(".")){
-        alert (`${num}`+" perfect square no.")
-        break
-    }
-}
+//     if(!str.includes(".")){
+//         alert (`${num}`+" perfect square no.")
+//         break
+//     }
+// }
  
-
-
 
