@@ -68,12 +68,42 @@
 //* CONCAT---non distructive method (This method returns a new array without modifying any existing arrays.)
 
 
-let a1=[1,2,3,4,5,6];
-let a2=['a','b','c','d','e'];
-let a3=[true,false]
-let a4=["+","-"]
+// let a1=[1,2,3,4,5,6];
+// let a2=['a','b','c','d','e'];
+// let a3=[true,false]
+// let a4=["+","-"]
 
-console.log(a2.concat(a1.concat(a3.concat(a4))))
+// console.log(a2.concat(a1.concat(a3.concat(a4))))
+
+
+//* 
+
+// let arr=[12,34,12,45,67,879]
+// let n=arr.length;
+// for(let i =0;i<n;i++){
+//     console.log(`index of arr ${i}  :-  value ${arr[i]}`);
+// }
+
+// console.log(arr.slice())
+
+// let arr=[];
+// let n=prompt("enter the value for size");
+// for(let i=0;i<n;i++){
+
+//     arr.push(prompt("enter the element"));
+//     // arr.push(prompt(`eneter the lement ${i+1}`))
+//     console.log(arr[i]);
+    
+
+// }
+        // 
+        // console.log(arr[i]);
+    
+
+
+        let 
+   
+
 
 
 
