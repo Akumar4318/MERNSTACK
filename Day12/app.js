@@ -70,19 +70,76 @@
 //! SEARCHING AND SORTING
 
 
-function search (arr,target){
+// function search (arr,target){
 
-    for(let value of arr){
-        if(value===target){
+//     for(let value of arr){
+//         if(value===target){
 
-            return true;
-        }
+//             return true;
+//         }
        
-    }
-    return false;
+//     }
+//     return false;
    
+// }
+
+// let arr=[1,2,4,5,6,7,8,9,];
+// let target=4
+// console.log(search (arr,target))
+
+
+
+//? return target index
+
+
+// function search (arr,target){
+
+//     for(let i=0;i<arr.length;i++){
+//         if(arr[i]==target ){
+//             return i;
+//         }
+//     }
+//       return -1;
+
+// }
+   
+
+// let arr=[1,2,4,5,6,7,8,9,];
+// let target=8
+// // let n=arr.length
+// console.log(search (arr,target))
+
+
+//SORTING
+
+
+
+
+//! SUBARRAY
+//NOTE - subarray should be contineous
+
+let arr=[1,2,3,4,5]
+
+for(let i=0;i<arr.length;i++){
+
+    let temp=[];
+    
+    for(let j=i;j<arr.length;j++)
+        {
+        temp.push(arr[j])
+        console.log(temp)
+    }
 }
 
-let arr=[1,2,4,5,6,7,8,9,];
-let target=4
-console.log(search (arr,target))
+//TODO ---HOF(HIGHER ODER FUNCTION)
+
+//! THOSE FUNCTION THE EITHER ACCEPT A FN IN ARGUMENTS OR RETURNS A FUNCTION
+
+1- fn abc()
+{
+    
+}
+
+
+
+//TODO ---CALLBACK FUNCTION 
