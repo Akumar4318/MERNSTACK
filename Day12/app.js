@@ -36,13 +36,35 @@
 
 
 //  M2
-let a=10;
-let b=100;
+// let a=10;
+// let b=100;
 
-a=a+b;
-b=a-b;
-a=a-b;
+// a=a+b;
+// b=a-b;
+// a=a-b;
 
- console.log(`value of a:-${a}`);
- console.log(`value of b:-${b}`)
+//  console.log(`value of a:-${a}`);
+//  console.log(`value of b:-${b}`)
 
+
+
+//! reverse ans array
+
+let arr=[1,2,3,4,5,6,7]
+let n=arr.length;
+
+let s=0
+let e=n-1;
+
+while(s<=e){
+    let temp=arr[s];
+    arr[s]=arr[e];
+    arr[e]=temp;
+    s++;
+    e--;
+}
+
+console.log(arr)
+
+
+//
