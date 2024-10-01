@@ -50,21 +50,39 @@
 
 //! reverse ans array
 
-let arr=[1,2,3,4,5,6,7]
-let n=arr.length;
+// let arr=[1,2,3,4,5,6,7]
+// let n=arr.length;
 
-let s=0
-let e=n-1;
+// let s=0
+// let e=n-1;
 
-while(s<=e){
-    let temp=arr[s];
-    arr[s]=arr[e];
-    arr[e]=temp;
-    s++;
-    e--;
+// while(s<=e){
+//     let temp=arr[s];
+//     arr[s]=arr[e];
+//     arr[e]=temp;
+//     s++;
+//     e--;
+// }
+
+// console.log(arr)
+
+
+//! SEARCHING AND SORTING
+
+
+function search (arr,target){
+
+    for(let value of arr){
+        if(value===target){
+
+            return true;
+        }
+       
+    }
+    return false;
+   
 }
 
-console.log(arr)
-
-
-//
+let arr=[1,2,4,5,6,7,8,9,];
+let target=4
+console.log(search (arr,target))
