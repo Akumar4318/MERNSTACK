@@ -48,12 +48,24 @@
 
 //! REDUCE
 
-let arr=[-1,1,2,3,4,5,6,7,8];
+// let arr=[-1,1,2,3,4,5,6,7,8];
 
  
-let sum=arr.reduce((accumulator,item)=>{
-    return accumulator+item
+// let sum=arr.reduce((accumulator,item)=>{
+//     return accumulator+item
 
-})
+// })
 
-console.log(sum)
+
+
+//? 2D ARRAYS
+
+let arr2=[[1,2,3,4,5,6],[true,false],[{},function(){}]]
+
+
+for(let i=0;i<arr2.length;i++){
+    for(let j=0;j<arr2[i].length;j++){
+        
+        console.log(arr2[i][j])
+    }
+}
