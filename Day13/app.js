@@ -60,12 +60,35 @@
 
 //? 2D ARRAYS
 
-let arr2=[[1,2,3,4,5,6],[true,false],[{},function(){}]]
+// let arr2=[[1,2,3,4,5,6],[true,false],[{},function(){}]]
 
 
-for(let i=0;i<arr2.length;i++){
-    for(let j=0;j<arr2[i].length;j++){
+// for(let i=0;i<arr2.length;i++){
+//     for(let j=0;j<arr2[i].length;j++){
         
-        console.log(arr2[i][j])
+//         console.log(arr2[i][j])
+//     }
+// }
+
+//* taking values in 2D ARRAY
+
+//1--
+
+let row=3
+let col=3
+
+let arr=[];
+
+for(let i=0;i<row;i++){
+    for(let j=0;j<col;j++){
+        let inner=[]
+
+        let val=Number(prompt(`enter the value for row ${i+1} and enter the value for col ${j+1} `));
+         
+        arr.push(val)
     }
+
+    arr
 }
+
+console.log(arr)
