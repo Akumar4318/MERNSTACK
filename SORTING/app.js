@@ -70,4 +70,4 @@ return arr;
 
 }
 
-console.log(insertionsort([14,54,12,13,13,12,9,45,44,43,42]))
+console.log(insertionsort([-14,-54,-12,-13,13,12,9,45,44,43,42]))

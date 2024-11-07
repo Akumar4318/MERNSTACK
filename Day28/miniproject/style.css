@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    border: solid 1px red;
+    background-color: rgb(113, 232, 226);
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    
+
+}
+#logo{
+    /* border:solid 1px rgb(26, 179, 18); */
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.9rem;
+}
+#navitem{
+   gap:200px;
+   margin-right: 100px;
+   margin-top: 10px;
+   font-size: larger;
+   display: flex;
+
+}
+.marginright{
+    display: flex;
+    gap: 30px;
+}
